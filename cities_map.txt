@@ -1,0 +1,48 @@
+0 Algiers 2 Black 25 Madrid 35 Paris 14 Istanbul 7 Cairo
+1 Atlanta 3 Blue 9 Chicago 28 Miami 47 Washington
+2 Baghdad 2 Black 45 Tehran 14 Istanbul 7 Cairo 36 Riyadh 17 Karachi
+3 Bangkok 1 Red 20 Kolkata 8 Chennai 15 Jakarta 12 HoChiMinhCity 13 HongKong
+4 Beijing 1 Red 41 Shanghai 40 Seoul
+5 Bogota 0 Yellow 27 MexicoCity 22 Lima 28 Miami 39 SaoPaulo 6 BuenosAires
+6 BuenosAires 0 Yellow 5 Bogota 39 SaoPaulo
+7 Cairo 2 Black 0 Algiers 14 Istanbul 2 Baghdad 18 Khartoum 36 Riyadh
+8 Chennai 2 Black 32 Mumbai 10 Delhi 20 Kolkata 3 Bangkok 15 Jakarta
+9 Chicago 3 Blue 37 SanFrancisco 24 LosAngeles 27 MexicoCity 1 Atlanta 30 Montreal
+10 Delhi 2 Black 45 Tehran 17 Karachi 32 Mumbai 8 Chennai 20 Kolkata
+11 Essen 3 Blue 23 London 35 Paris 29 Milan 42 StPetersburg
+12 HoChiMinhCity 1 Red 15 Jakarta 3 Bangkok 13 HongKong 26 Manila
+13 HongKong 1 Red 3 Bangkok 20 Kolkata 12 HoChiMinhCity 41 Shanghai 26 Manila 44 Taipei
+14 Istanbul 2 Black 29 Milan 0 Algiers 42 StPetersburg 7 Cairo 2 Baghdad 31 Moscow
+15 Jakarta 1 Red 8 Chennai 3 Bangkok 12 HoChiMinhCity 43 Sydney
+16 Johannesburg 0 Yellow 19 Kinshasa 18 Khartoum
+17 Karachi 2 Black 45 Tehran 2 Baghdad 36 Riyadh 32 Mumbai 10 Delhi
+18 Khartoum 0 Yellow 7 Cairo 21 Lagos 19 Kinshasa 16 Johannesburg
+19 Kinshasa 0 Yellow 21 Lagos 18 Khartoum 16 Johannesburg
+20 Kolkata 2 Black 10 Delhi 8 Chennai 3 Bangkok 13 HongKong
+21 Lagos 0 Yellow 39 SaoPaulo 18 Khartoum 19 Kinshasa
+22 Lima 0 Yellow 27 MexicoCity 5 Bogota 38 Santiago
+23 London 3 Blue 33 NewYork 25 Madrid 11 Essen 35 Paris
+24 LosAngeles 0 Yellow 37 SanFrancisco  9 Chicago 27 MexicoCity 43 Sydney
+25 Madrid 3 Blue 23 London 33 NewYork 35 Paris 39 SaoPaulo 0 Algiers
+26 Manila 1 Red 44 Taipei 37 SanFrancisco 12 HoChiMinhCity 43 Sydney 13 HongKong
+27 MexicoCity 0 Yellow 24 LosAngeles 9 Chicago 28 Miami 22 Lima 5 Bogota
+28 Miami 0 Yellow 1 Atlanta 27 MexicoCity 47 Washington 5 Bogota
+29 Milan 3 Blue 11 Essen 35 Paris 14 Istanbul
+30 Montreal 3 Blue 9 Chicago 47 Washington 33 NewYork
+31 Moscow 2 Black 42 StPetersburg 14 Istanbul 45 Tehran
+32 Mumbai 2 Black 17 Karachi 10 Delhi 8 Chennai
+33 NewYork 3 Blue 30 Montreal 47 Washington 23 London 25 Madrid
+34 Osaka 1 Red 44 Taipei 46 Tokyo
+35 Paris 3 Blue 0 Algiers 11 Essen 25 Madrid 29 Milan 23 London
+36 Riyadh 2 Black 2 Baghdad 7 Cairo 17 Karachi
+37 SanFrancisco 3 Blue 24 LosAngeles 9 Chicago 46 Tokyo 26 Manila
+38 Santiago 0 Yellow 22 Lima
+39 SaoPaulo 0 Yellow 5 Bogota 6 BuenosAires 21 Lagos 25 Madrid
+40 Seoul 1 Red 4 Beijing 41 Shanghai 46 Tokyo
+41 Shanghai 1 Red 4 Beijing 13 HongKong 44 Taipei 40 Seoul 46 Tokyo
+42 StPetersburg 3 Blue 11 Essen 14 Istanbul 31 Moscow
+43 Sydney 1 Red 15 Jakarta 26 Manila 24 LosAngeles
+44 Taipei 1 Red 41 Shanghai 13 HongKong 34 Osaka 26 Manila
+45 Tehran 2 Black 2 Baghdad 31 Moscow 17 Karachi 10 Delhi
+46 Tokyo 1 Red 40 Seoul 41 Shanghai 34 Osaka 37 SanFrancisco
+47 Washington 3 Blue 1 Atlanta 33 NewYork 30 Montreal 28 Miami
