@@ -89,13 +89,30 @@ namespace pandemic
 
     ostream &operator<<(ostream &out, const Board &board)
     {
+        int research_station = 0;
+        string research_station_name = "You can find research station in : ";
+        string discoverCure = "The drugs discovered so far : ";
         string s;
         for (const auto &it : board.world_connections)
         {
-            s += "city info:\ncity_name = " + get<city_name>(it.second) + "\n" + "city color = " + get<color_name>(it.second) + "\n" + "The level of disease in the city = " + to_string(get<num_of_disease>(it.second)) + "\n" + "Research stations built so far = " + "\n" + "...................................\n";
+            if (get<build_research_station>(it.second))
+            {
+                research_station_name += get<city_name>(it.second) + ",";
+                research_station++;
+            }
+            s += "city info:\ncity_name = " + get<city_name>(it.second) + "\n" + "city color = " + get<color_name>(it.second) + "\n" + "The level of disease in the city = " + to_string(get<num_of_disease>(it.second)) + "\n" + "...................................\n";
         }
+        for (const auto &it : board.discover_cure)
+        {
+            if (it.second.second)
+            {
+                discoverCure += it.second.first + ",";
+            }
+        }
+                research_station_name += "\nTotal research station = " + to_string(research_station);
 
-        return out << s;
+
+        return out << "--------------------------------\n"+research_station_name + "\n" + discoverCure + "\n----------------------------\n" + s;
     }
 
     void Board::remove_cures()
